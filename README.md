@@ -15,6 +15,8 @@ If you want to configure Tomcat to use log4j2 globally:
   1. Put `tomcat-juli-log4j2.jar` into `$CATALINA_HOME/bin/`
   2. Set `CLASSPATH="$CLASSPATH:${CATALINA_HOME}/bin/tomcat-juli-log4j2.jar"` in `${CATALINA_HOME}/bin/setenv.sh`  
 
+* This has been tested in Tomcat 8.5 and Log4j 2.8
+
 ---
 
 ## MAVEN
